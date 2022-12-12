@@ -1,0 +1,57 @@
+b{
+    margin-bottom: 3em;
+    margin-top: 0em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:tomato;
+    font-size: 50px;
+    position: sticky;
+    border: 20px;
+    
+}
+p{
+    margin-bottom: 0em;
+    margin-top: 4em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    position: sticky;
+}
+h1{
+    font-size: 15px;
+    color: rgb(84, 53, 137);
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+}
+h2{
+    font-size: 15px;
+    color: palevioletred;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    outline: auto;
+}
+
+b,p,h1{
+    border: 1px solid plum;
+    padding: 1em;
+    width: 500px;
+    box-sizing: border-box;
+    margin: auto
+
+}
+.mycontent{
+    width:600px;
+    margin: auto;
+
+}
+header, section{
+
+}
+#smiley{
+    font-size:50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: rgb(76, 127, 122);
+}
+#about{
+    padding-top: 20px;
+}
