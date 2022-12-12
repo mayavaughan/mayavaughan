@@ -1,0 +1,48 @@
+* {
+    margin:10px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(26, 26, 122);
+}
+body{
+    border-left: 50px;
+    font-size: 15px;
+    color:rgb(251, 242, 231);
+    
+}
+
+.wave{
+    font-stretch: condensed;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.wave:hover{
+    /* text-align: right;
+    rotate: 180deg; */
+    color: rgb(98, 133, 164);
+    transform: rotate(180deg);
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(232, 200, 58);
+}
+a:hover{
+    color: rgb(205, 94, 220);
+    text-decoration: underline;
+}
+@keyframes move{
+  0% {transform:scale(100%);
+transform-origin: left; }
+  25%{transform:scale(110%);
+    transform-origin: left; }
+  50% {transform:scale(130%);
+    transform-origin: left; }
+  75% {transform: scale(140%);
+    transform-origin: left; }
+  100% {transform: scale(200%);
+    transform-origin: left; }
+}
